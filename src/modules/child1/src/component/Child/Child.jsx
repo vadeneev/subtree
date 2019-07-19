@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { actions } from '../../index';
+import { actions } from '../../actions/actions';
 
 
 function Child({ inc, dec, count }) {
