@@ -1,5 +1,5 @@
 
-## to update subtrees:
+## to update from subtrees:
 git subtree pull --prefix src/modules/child1 https://github.com/vadeneev/child1.git master  
 git subtree pull --prefix src/modules/child2 https://github.com/vadeneev/child2.git master  
 (it gives us ability to control versions of each sub-app)  
